@@ -1,0 +1,35 @@
+body{
+    color: #c7c7c7;
+    background-image: url("./img/synthwave.png");
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.table, #formulario{
+    color: #e0e0e0;
+    background-color: #141414dc;
+    margin: 10px;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    border-radius: 10px;
+}
+
+
+button{
+    margin: 10px;
+}
+
+.form-control{
+    display: inline-block;
+    width: 90%;
+    background-color: #333333b7;
+    color: white;
+    
+}
