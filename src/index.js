@@ -5,7 +5,7 @@ import Tabela from './components/main'
 import Formu from './components/form'
 
 ReactDOM.render(
-    <div>   
+    <div>
         <Formu></Formu>
         <Tabela></Tabela>
     </div>,

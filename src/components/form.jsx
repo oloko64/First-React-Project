@@ -31,20 +31,20 @@ function Formu() {
     }
 
     return (
-        <div id="formulario" class="rounded-lg">
+        <div id="formulario" className="rounded-lg">
             <form id="clearForm">
-                <label>Nome do album</label>
-                <input class="form-control" id="album"></input>
+                <label>Nome do album</label><br/>
+                <input className="form-control" id="album"></input><br/>
 
-                <label>Nome da banda</label>
-                <input class="form-control" id="banda"></input>
+                <label>Nome da banda</label><br/>
+                <input className="form-control" id="banda"></input><br/>
 
-                <label>Quantidade de musicas</label>
-                <input class="form-control" id="qtd_musicas"></input>
+                <label>Quantidade de musicas</label><br/>
+                <input className="form-control" id="qtd_musicas"></input><br/>
 
-                <label>Tempo total</label>
-                <input class="form-control" id="tempo"></input><br/>
-                <button type="button" onClick={addToTable} class="btn btn-light">Enviar</button>
+                <label>Tempo total</label><br/>
+                <input className="form-control" id="tempo"></input><br />
+                <button type="button" onClick={addToTable} className="btn btn-light">Enviar</button>
             </form>
         </div>
 
