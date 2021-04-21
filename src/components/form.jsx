@@ -44,8 +44,8 @@ function Formu() {
 
                 <label>Tempo total</label><br/>
                 <input className="form-control" id="tempo"></input><br />
-                <button type="button" onClick={addToTable} className="btn btn-light">Enviar</button>
             </form>
+            <button type="button" onClick={addToTable} className="btn btn-light">Enviar</button>
         </div>
 
     )
